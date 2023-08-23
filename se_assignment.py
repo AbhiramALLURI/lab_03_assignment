@@ -3,7 +3,6 @@ class FlightTable:
         self.flights = {}
 #Abhiram Alluri 
 # E22CSEU0265
-# SE lab 
     def add_flight(self, flight_id, from_city, to_city, price):
         self.flights[flight_id] = (from_city, to_city, price)
 
